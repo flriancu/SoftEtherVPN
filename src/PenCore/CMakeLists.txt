@@ -13,3 +13,5 @@ set_target_properties(PenCore
 )
 
 target_link_libraries(PenCore cedar mayaqua)
+
+set_source_files_properties(pencore.rc PROPERTIES LANGUAGE RC)

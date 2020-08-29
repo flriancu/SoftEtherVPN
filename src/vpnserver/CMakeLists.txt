@@ -47,8 +47,8 @@ if(UNIX)
     PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ
   )
 
-  install_wrapper_script("vpnserver")
+  unix_install_wrapper_script("vpnserver")
   if(NOT "${CMAKE_INSTALL_SYSTEMD_UNITDIR}" STREQUAL "")
-    install_unit_file("vpnserver")
+    unix_install_unit_file("vpnserver")
   endif()
 endif()

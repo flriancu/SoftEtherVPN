@@ -45,5 +45,5 @@ if(UNIX)
     PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ
   )
 
-  install_wrapper_script("vpncmd")
+  unix_install_wrapper_script("vpncmd")
 endif()

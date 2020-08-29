@@ -7,7 +7,7 @@ Makefile
 !/src/bin/hamcore/
 /src/bin/hamcore/*
 !/src/bin/hamcore/wwwroot/
-build/
+build*/
 cmake-build-debug/
 src/bin/hamcore/authors.txt
 src/bin/BuiltHamcoreFiles/

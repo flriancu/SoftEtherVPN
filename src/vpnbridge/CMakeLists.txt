@@ -47,8 +47,8 @@ if(UNIX)
     PERMISSIONS OWNER_READ OWNER_WRITE GROUP_READ WORLD_READ
   )
 
-  install_wrapper_script("vpnbridge")
+  unix_install_wrapper_script("vpnbridge")
   if(NOT "${CMAKE_INSTALL_SYSTEMD_UNITDIR}" STREQUAL "")
-    install_unit_file("vpnbridge")
+    unix_install_unit_file("vpnbridge")
   endif()
 endif()
